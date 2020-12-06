@@ -47,7 +47,7 @@ const HitCarousel = () => {
             animationDuration={500} >
                 <div className="card">
                     <div className="card-img">
-                        <img src="/images/Layer 613.png" alt="img653"/>
+                        <img src="https://sardorigamberdiyev.github.io/bozorcom/images/Layer 613.png" alt="img653"/>
                         <span className="discount">20%</span>
                     </div>
                     <div className="card-body">
@@ -64,7 +64,7 @@ const HitCarousel = () => {
                 </div>
                 <div className="card">
                     <div className="card-img">
-                        <img src="/images/Layer 613.png" alt="img653"/>
+                        <img src="https://sardorigamberdiyev.github.io/bozorcom/images/Layer 613.png" alt="img653"/>
                         <span className="discount">20%</span>
                     </div>
                     <div className="card-body">
@@ -79,7 +79,7 @@ const HitCarousel = () => {
                 </div>
                 <div className="card">
                     <div className="card-img">
-                        <img src="/images/Layer 613.png" alt="img653"/>
+                        <img src="https://sardorigamberdiyev.github.io/bozorcom/images/Layer 613.png" alt="img653"/>
                         <span className="discount">20%</span>
                     </div>
                     <div className="card-body">
@@ -94,7 +94,7 @@ const HitCarousel = () => {
                 </div>
                 <div className="card">
                     <div className="card-img">
-                        <img src="/images/Layer 613.png" alt="img653"/>
+                        <img src="https://sardorigamberdiyev.github.io/bozorcom/images/Layer 613.png" alt="img653"/>
                         <span className="discount">20%</span>
                     </div>
                     <div className="card-body">
@@ -109,7 +109,7 @@ const HitCarousel = () => {
                 </div>
                 <div className="card">
                     <div className="card-img">
-                        <img src="/images/Layer 613.png" alt="img653"/>
+                        <img src="https://sardorigamberdiyev.github.io/bozorcom/images/Layer 613.png" alt="img653"/>
                         <span className="discount">20%</span>
                     </div>
                     <div className="card-body">

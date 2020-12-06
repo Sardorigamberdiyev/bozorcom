@@ -59,34 +59,34 @@ const BrandCarousel = () => {
             autoPlayInterval={7000}
             animationDuration={500} >
                 <a href="/" className="brand-item">
-                    <img src="/images/brand/Layer 607.png" alt="gree" />
+                    <img src="https://sardorigamberdiyev.github.io/bozorcom/images/brand/Layer 607.png" alt="gree" />
                 </a>
                 <a href="/" className="brand-item">
-                    <img src="/images/brand/Layer 608.png" alt="huawai" />
+                    <img src="https://sardorigamberdiyev.github.io/bozorcom/images/brand/Layer 608.png" alt="huawai" />
                 </a>
                 <a href="/" className="brand-item">
-                    <img src="/images/brand/Layer 609.png" alt="mi" />
+                    <img src="https://sardorigamberdiyev.github.io/bozorcom/images/brand/Layer 609.png" alt="mi" />
                 </a>
                 <a href="/" className="brand-item">
-                    <img src="/images/brand/Layer 610.png" alt="samsung" />
+                    <img src="https://sardorigamberdiyev.github.io/bozorcom/images/brand/Layer 610.png" alt="samsung" />
                 </a>
                 <a href="/" className="brand-item">
-                    <img src="/images/brand/Layer 611.png" alt="lg" />
+                    <img src="https://sardorigamberdiyev.github.io/bozorcom/images/brand/Layer 611.png" alt="lg" />
                 </a>
                 <a href="/" className="brand-item">
-                    <img src="/images/brand/Layer 612.png" alt="hp" />
+                    <img src="https://sardorigamberdiyev.github.io/bozorcom/images/brand/Layer 612.png" alt="hp" />
                 </a>
                 <a href="/" className="brand-item">
-                    <img src="/images/brand/Layer 607.png" alt="gree" />
+                    <img src="https://sardorigamberdiyev.github.io/bozorcom/images/brand/Layer 607.png" alt="gree" />
                 </a>
                 <a href="/" className="brand-item">
-                    <img src="/images/brand/Layer 608.png" alt="huawai" />
+                    <img src="https://sardorigamberdiyev.github.io/bozorcom/images/brand/Layer 608.png" alt="huawai" />
                 </a>
                 <a href="/" className="brand-item">
-                    <img src="/images/brand/Layer 609.png" alt="mi" />
+                    <img src="https://sardorigamberdiyev.github.io/bozorcom/images/brand/Layer 609.png" alt="mi" />
                 </a>
                 <a href="/" className="brand-item">
-                    <img src="/images/brand/Layer 612.png" alt="hp" />
+                    <img src="https://sardorigamberdiyev.github.io/bozorcom/images/brand/Layer 612.png" alt="hp" />
                 </a>
             </AliceCarousel>
         </div>
