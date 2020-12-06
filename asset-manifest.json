@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/bozorcom/static/css/main.c1e3a302.chunk.css",
-    "main.js": "/bozorcom/static/js/main.77fd49d7.chunk.js",
-    "main.js.map": "/bozorcom/static/js/main.77fd49d7.chunk.js.map",
+    "main.css": "/bozorcom/static/css/main.46995a5c.chunk.css",
+    "main.js": "/bozorcom/static/js/main.59056bfa.chunk.js",
+    "main.js.map": "/bozorcom/static/js/main.59056bfa.chunk.js.map",
     "runtime-main.js": "/bozorcom/static/js/runtime-main.25776683.js",
     "runtime-main.js.map": "/bozorcom/static/js/runtime-main.25776683.js.map",
     "static/css/2.ce773819.chunk.css": "/bozorcom/static/css/2.ce773819.chunk.css",
     "static/js/2.acde7f3f.chunk.js": "/bozorcom/static/js/2.acde7f3f.chunk.js",
     "static/js/2.acde7f3f.chunk.js.map": "/bozorcom/static/js/2.acde7f3f.chunk.js.map",
     "index.html": "/bozorcom/index.html",
-    "precache-manifest.53a1660fd91b1266d40e4c834d23ccac.js": "/bozorcom/precache-manifest.53a1660fd91b1266d40e4c834d23ccac.js",
+    "precache-manifest.415a0d4edc554a4d29f0f84db94f4e4f.js": "/bozorcom/precache-manifest.415a0d4edc554a4d29f0f84db94f4e4f.js",
     "service-worker.js": "/bozorcom/service-worker.js",
     "static/css/2.ce773819.chunk.css.map": "/bozorcom/static/css/2.ce773819.chunk.css.map",
-    "static/css/main.c1e3a302.chunk.css.map": "/bozorcom/static/css/main.c1e3a302.chunk.css.map",
+    "static/css/main.46995a5c.chunk.css.map": "/bozorcom/static/css/main.46995a5c.chunk.css.map",
     "static/js/2.acde7f3f.chunk.js.LICENSE.txt": "/bozorcom/static/js/2.acde7f3f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.25776683.js",
     "static/css/2.ce773819.chunk.css",
     "static/js/2.acde7f3f.chunk.js",
-    "static/css/main.c1e3a302.chunk.css",
-    "static/js/main.77fd49d7.chunk.js"
+    "static/css/main.46995a5c.chunk.css",
+    "static/js/main.59056bfa.chunk.js"
   ]
 }
