@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/bozorcom/static/css/main.c1e3a302.chunk.css",
-    "main.js": "/bozorcom/static/js/main.92292985.chunk.js",
-    "main.js.map": "/bozorcom/static/js/main.92292985.chunk.js.map",
+    "main.js": "/bozorcom/static/js/main.77fd49d7.chunk.js",
+    "main.js.map": "/bozorcom/static/js/main.77fd49d7.chunk.js.map",
     "runtime-main.js": "/bozorcom/static/js/runtime-main.25776683.js",
     "runtime-main.js.map": "/bozorcom/static/js/runtime-main.25776683.js.map",
     "static/css/2.ce773819.chunk.css": "/bozorcom/static/css/2.ce773819.chunk.css",
     "static/js/2.acde7f3f.chunk.js": "/bozorcom/static/js/2.acde7f3f.chunk.js",
     "static/js/2.acde7f3f.chunk.js.map": "/bozorcom/static/js/2.acde7f3f.chunk.js.map",
     "index.html": "/bozorcom/index.html",
-    "precache-manifest.378432d4c6d02edd7acf2a6522c180b3.js": "/bozorcom/precache-manifest.378432d4c6d02edd7acf2a6522c180b3.js",
+    "precache-manifest.53a1660fd91b1266d40e4c834d23ccac.js": "/bozorcom/precache-manifest.53a1660fd91b1266d40e4c834d23ccac.js",
     "service-worker.js": "/bozorcom/service-worker.js",
     "static/css/2.ce773819.chunk.css.map": "/bozorcom/static/css/2.ce773819.chunk.css.map",
     "static/css/main.c1e3a302.chunk.css.map": "/bozorcom/static/css/main.c1e3a302.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.ce773819.chunk.css",
     "static/js/2.acde7f3f.chunk.js",
     "static/css/main.c1e3a302.chunk.css",
-    "static/js/main.92292985.chunk.js"
+    "static/js/main.77fd49d7.chunk.js"
   ]
 }
