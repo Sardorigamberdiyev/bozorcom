@@ -19,7 +19,7 @@ const CategoryListDetails = (props) => {
                 </li>
                 <li>
                     <CategoryListItemDetail name="Yuvish vositalari" />
-                    <div><img src="/images/logo.png" alt="logo" /></div>
+                    <div><img src="https://sardorigamberdiyev.github.io/bozorcom/images/logo.png" alt="logo" /></div>
                 </li>
             </ul>
         </div>
