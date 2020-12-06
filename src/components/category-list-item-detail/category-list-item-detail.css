@@ -1,0 +1,28 @@
+
+.category-list-item-detail h4 {
+    font-weight: 600;
+    font-family: roboto, sans-serif;
+}
+
+.category-list-item-detail ul {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.category-list-item-detail ul li {
+    padding: 5px;
+}
+
+.category-list-item-detail ul li a {
+    text-decoration: none;
+    color: #18446E;
+    transition-duration: .2s;
+    font-weight: 500;
+    font-family: roboto, sans-serif;
+}
+
+.category-list-item-detail ul li a:hover {
+    color: #3873ad;
+}

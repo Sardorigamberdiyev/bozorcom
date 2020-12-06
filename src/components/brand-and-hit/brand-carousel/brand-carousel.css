@@ -1,0 +1,76 @@
+
+.brand-carousel .brand-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-carousel .brand-header h2 {
+    flex-basis: 10%;
+    text-transform: uppercase;
+    font-family: roboto, sans-serif;
+    color: #252525;
+}
+
+.brand-carousel .brand-header hr {
+    flex-basis: 71%;
+    border: 1px solid #e2e1e1;
+    width: 100%;
+}
+
+.brand-carousel .brand-header div {
+    flex-basis: 16%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-carousel .brand-header div {
+    font-family: roboto, sans-serif;
+    font-size: 14px;
+}
+
+.brand-carousel .brand-header div button {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #e2e1e1;
+    border-radius: 4px;
+    transition-duration: .2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brand-carousel .brand-header div button i {
+    width: 12px;
+    height: 12px;
+}
+
+.brand-carousel .brand-header div button:focus {
+    outline-style: none;
+}
+
+.brand-carousel .brand-header div button:hover {
+    background-color: #F2B143;
+    cursor: pointer;
+}
+
+.brand-carousel .brand-header div button:hover i {
+    background-color: white;
+}
+
+.brand-carousel .brand-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.brand-carousel .brand-item img {
+    margin: 0 5px;
+}
+
+.brand-carousel .alice-carousel__stage-item {
+    vertical-align: middle;
+}

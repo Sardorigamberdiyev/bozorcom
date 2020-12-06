@@ -1,0 +1,190 @@
+
+.hit-carousel .hit-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hit-carousel .hit-header h2 {
+    flex-basis: 10%;
+    text-transform: uppercase;
+    font-family: roboto, sans-serif;
+    color: #252525;
+}
+
+.hit-carousel .hit-header hr {
+    flex-basis: 73%;
+    border: 1px solid #e2e1e1;
+    width: 100%;
+}
+
+.hit-carousel .hit-header div {
+    flex-basis: 14%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hit-carousel .hit-header div {
+    font-family: roboto, sans-serif;
+    font-size: 14px;
+}
+
+.hit-carousel .hit-header div button {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #e2e1e1;
+    border-radius: 4px;
+    transition-duration: .2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hit-carousel .hit-header div button i {
+    width: 12px;
+    height: 12px;
+}
+
+.hit-carousel .hit-header div button:focus {
+    outline-style: none;
+}
+
+.hit-carousel .hit-header div button:hover {
+    background-color: #F2B143;
+    cursor: pointer;
+}
+
+.hit-carousel .hit-header div button:hover i {
+    background-color: white;
+}
+
+.hit-carousel .card {
+    transition-duration: .4s;
+}
+
+.hit-carousel .card .card-img {
+    text-align: center;
+    padding: 20px 10px;
+    border: 1px solid #e2e1e1;
+    position: relative;
+    background-color: white;
+}
+
+.hit-carousel .card .card-img .discount {
+    font-family: roboto, sans-serif;
+    font-size: 12px;
+    padding: 2px 6px;
+    background-color: #F2B143;
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.hit-carousel .card .card-body {
+    background-color: white;
+    padding: 15px;
+    border-right: 1px solid #e2e1e1;
+    border-left: 1px solid #e2e1e1;
+}
+
+.hit-carousel .card .card-body h4 {
+    margin: 0;
+    padding-bottom: 15px;
+    font-family: roboto, sans-serif;
+    position: relative;
+}
+
+.hit-carousel .card .card-body h4::after {
+    content: '';
+    width: 30px;
+    height: 2px;
+    background-color: #F2B143;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.hit-carousel .card .card-body p {
+    font-family: roboto, sans-serif;
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+
+.hit-carousel .card .card-body p span {
+    font-size: 15px;
+}
+
+.hit-carousel .card .card-footer {
+    padding: 15px;
+    border: 1px solid #e2e1e1;
+    border-top: none;
+}
+
+.hit-carousel .card .card-footer {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hit-carousel .card .card-footer button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.hit-carousel .card .card-footer button:focus {
+    outline-style: none;
+}
+
+.hit-carousel .card .card-footer button:nth-child(1) {
+    background-color: white;
+    border: 1px solid #e2e1e1;
+    visibility: hidden;
+}
+
+.hit-carousel .card .card-footer button:nth-child(1) i {
+    background-color: #d6cece;
+}
+
+.hit-carousel .card .card-footer button:nth-child(1):hover {
+    background-color: #dda23c;
+    border-color: #dda23c;
+}
+
+.hit-carousel .card .card-footer button:nth-child(1):hover i {
+    background-color: white;
+}
+
+.hit-carousel .card .card-footer button:nth-child(3) {
+    background-color: #F2B143;
+    border: 1px solid #F2B143;
+}
+
+.hit-carousel .card .card-footer button:nth-child(3) i {
+    background-color: white;
+}
+
+.hit-carousel .card .card-footer button:nth-child(3):hover {
+    background-color: #dda23c;
+}
+
+.hit-carousel .card .card-footer span {
+    border: 1px solid #e2e1e1;
+    padding: 5px 30px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-family: roboto, sans-serif;
+    visibility: hidden;
+}
+
+.hit-carousel .card:hover .card-footer span,
+.hit-carousel .card:hover .card-footer button:nth-child(1) {
+    visibility: visible;
+}

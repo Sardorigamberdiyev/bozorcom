@@ -1,0 +1,73 @@
+
+.header-cap {
+    background-color: #18446E;
+}
+
+.header-cap .cap-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-cap .cap-container p {
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    font-family: roboto, sans-serif;
+}
+
+.header-cap .cap-container p span {
+    color: #F0B042;
+}
+
+.header-cap .cap-container .contact {
+    display: flex;
+    align-items: center;
+}
+
+.header-cap .cap-container .contact i {
+    background-color: white;
+}
+
+.header-cap .cap-container .contact span {
+    color: white;
+    font-family: roboto, sans-serif;
+    font-size: 12px;
+    margin-left: 4px;
+    font-weight: 600;
+}
+
+@media (max-width: 576px) {
+    .header-cap .cap-container {
+        flex-wrap: wrap;
+    }
+
+    .header-cap .cap-container p {
+        margin: 5px 0;
+        font-size: 11px;
+    }
+
+    .header-cap .cap-container .contact i {
+        width: 13px;
+        height: 13px;
+    }
+
+    .header-cap .cap-container .contact span {
+        font-size: 11px;
+        margin: 5px 0 5px 5px;
+
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header-cap .cap-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-cap .cap-container {
+        flex-wrap: wrap;
+    }
+}

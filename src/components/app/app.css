@@ -1,0 +1,99 @@
+
+body {
+    margin: 0;
+}
+
+.app .app-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+/*********** ICONS ***********/
+
+.icon {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    background-color: #1D1D1D;
+    mask-position: center center;
+    mask-repeat: no-repeat;
+    mask-size: 100%;
+}
+
+
+.icon.icon-phone {
+    mask-image: url('/images/icons/phone-call.png');
+}
+
+.icon.icon-user {
+    mask-image: url('/images/icons/user.png');
+}
+
+.icon.icon-cart {
+    mask-image: url('/images/icons/shopping-cart.png');
+}
+
+.icon.icon-search {
+    mask-image: url('/images/icons/search.png');
+}
+
+.icon.icon-list {
+    mask-image: url('/images/icons/list.png');
+}
+
+.icon.icon-monitor {
+    mask-image: url('/images/icons/flatscreen-tv.png');
+}
+
+.icon.icon-mobile {
+    mask-image: url('/images/icons/smartphone.png');
+}
+
+.icon.icon-ball {
+    mask-image: url('/images/icons/football.png');
+}
+
+.icon.icon-leaf {
+    mask-image: url('/images/icons/leaf.png');
+}
+
+.icon.icon-cutlery {
+    mask-image: url('/images/icons/cutlery.png');
+}
+
+.icon.icon-basket {
+    mask-image: url('/images/icons/shopping-cart 2.png');
+}
+
+.icon.icon-photography {
+    mask-image: url('/images/icons/photography.png');
+}
+
+.icon.icon-plug {
+    mask-image: url('/images/icons/plug.png');
+}
+
+.icon.icon-headphones {
+    mask-image: url('/images/icons/headphones.png');
+}
+
+.icon.icon-apple {
+    mask-image: url('/images/icons/apple-logo.png');
+}
+
+.icon.icon-arrow-left {
+    mask-image: url('/images/icons/left-arrow-angle-big-gross-symbol.png');
+}
+
+.icon.icon-arrow-right {
+    mask-image: url('/images/icons/right-arrow.png');
+}
+
+.icon.icon-plus {
+    mask-image: url('/images/icons/plus.png');
+}
+
+.icon.icon-remove {
+    mask-image: url('/images/icons/remove.png');
+}
