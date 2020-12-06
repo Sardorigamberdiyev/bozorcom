@@ -11,7 +11,7 @@ const HeaderFace = () => {
             <div className="face-container">
                 <CategoryList />
                 <div className="img-advertising">
-                    <img src="/images/brand/Layer 611.png" alt="imgLG" />
+                    <img src="https://sardorigamberdiyev.github.io/bozorcom/images/brand/Layer 611.png" alt="imgLG" />
                 </div>
             </div>
         </div>

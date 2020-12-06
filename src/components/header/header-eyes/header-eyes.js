@@ -8,7 +8,7 @@ const HeaderEyes = () => {
         <div className="header-eyes">
             <div className="eyes-container">
                 <a href="/">
-                    <img src="/images/logo.png" alt="logo" />
+                    <img src="https://sardorigamberdiyev.github.io/bozorcom/images/logo.png" alt="logo" />
                 </a>
                 <div className="search-panel">
                     <input type="text" placeholder="қидириш" />
