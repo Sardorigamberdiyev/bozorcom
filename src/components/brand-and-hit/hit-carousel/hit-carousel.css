@@ -65,11 +65,15 @@
 }
 
 .hit-carousel .card .card-img {
+    min-height: 250px;
     text-align: center;
     padding: 20px 10px;
     border: 1px solid #e2e1e1;
     position: relative;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hit-carousel .card .card-img .discount {
@@ -187,4 +191,115 @@
 .hit-carousel .card:hover .card-footer span,
 .hit-carousel .card:hover .card-footer button:nth-child(1) {
     visibility: visible;
+}
+
+
+
+@media (max-width: 576px) {
+
+    .hit-carousel .hit-header h2 {
+        font-size: 18px;
+    }
+
+    .hit-carousel .hit-header hr {
+        margin: 0 10px;
+    }
+
+    .hit-carousel .hit-header > div span {
+        width: 110px;
+        font-size: 12px;
+    }
+
+    .hit-carousel .hit-header > div .btn-left-right button:nth-child(1) {
+        margin-right: 5px;
+    }
+
+    .hit-carousel .hit-header > div .btn-left-right button {
+        background-color: #F2B143;
+        border-color: #F2B143;
+    }
+    .hit-carousel .hit-header > div .btn-left-right button i {
+        background-color: white;
+    }
+    
+    .hit-carousel .card .card-footer button:nth-child(1) {
+        visibility: visible;
+    }
+
+    .hit-carousel .card .card-footer span {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .hit-carousel .hit-header h2 {
+        font-size: 22px;
+    }
+
+    .hit-carousel .hit-header hr {
+        margin: 0 10px;
+    }
+
+    .hit-carousel .hit-header > div span {
+        text-align: center;
+        width: 140px;
+        font-size: 14px;
+    }
+
+    .hit-carousel .hit-header > div .btn-left-right button:nth-child(1) {
+        margin-right: 5px;
+    }
+
+    .hit-carousel .hit-header > div .btn-left-right button {
+        background-color: #F2B143;
+        border-color: #F2B143;
+    }
+    .hit-carousel .hit-header > div .btn-left-right button i {
+        background-color: white;
+    }
+    
+    .hit-carousel .card .card-footer button:nth-child(1) {
+        visibility: visible;
+    }
+
+    .hit-carousel .card .card-footer span {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .hit-carousel .hit-header h2 {
+        font-size: 28px;
+    }
+
+    .hit-carousel .hit-header hr {
+        margin: 0 10px;
+    }
+
+    .hit-carousel .hit-header > div span {
+        width: 140px;
+        font-size: 14px;
+    }
+
+    .hit-carousel .hit-header > div .btn-left-right button:nth-child(1) {
+        margin-right: 5px;
+    }
+
+    .hit-carousel .hit-header > div .btn-left-right button {
+        background-color: #F2B143;
+        border-color: #F2B143;
+    }
+    .hit-carousel .hit-header > div .btn-left-right button i {
+        background-color: white;
+    }
+    
+    .hit-carousel .card .card-footer button:nth-child(1) {
+        visibility: visible;
+    }
+
+    .hit-carousel .card .card-footer span {
+        visibility: visible;
+    }
 }

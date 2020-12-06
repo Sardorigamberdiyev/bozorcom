@@ -4,13 +4,13 @@ import './category-list-item-detail.css';
 
 
 const CategoryListItemDetail = (props) => {
-    const { name } = props;
+    const { name, ancd } = props;
     return (
         <div className="category-list-item-detail">
-            <h4>{name}</h4>
+            <h4>{ancd + " " + name}</h4>
             <ul>
                 <li>
-                    <a href="/">Hammasi</a>
+                    <a href="/"> Hammasi</a>
                 </li>
                 <li>
                     <a href="/">Sabzavotlar</a>

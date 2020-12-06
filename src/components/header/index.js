@@ -1,11 +1,11 @@
 import HeaderCap from './header-cap';
 import HeaderEyes from './header-eyes';
 import HeaderFace from './header-face';
-import HeaderNav from './header-nav';
+import HeaderCategory from './header-category';
 
 export {
     HeaderCap,
     HeaderEyes,
-    HeaderNav,
+    HeaderCategory,
     HeaderFace
 }

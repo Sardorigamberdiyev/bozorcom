@@ -7,19 +7,6 @@ import './brand-carousel.css';
 
 const BrandCarousel = () => {
 
-    const brands = [
-        <img src="/images/brand/Layer 607.png" alt="gree" />,
-        <img src="/images/brand/Layer 608.png" alt="huawai" />,
-        <img src="/images/brand/Layer 609.png" alt="mi" />,
-        <img src="/images/brand/Layer 610.png" alt="samsung" />,
-        <img src="/images/brand/Layer 611.png" alt="lg" />,
-        <img src="/images/brand/Layer 612.png" alt="hp" />,
-        <img src="/images/brand/Layer 607.png" alt="gree" />,
-        <img src="/images/brand/Layer 608.png" alt="huawai" />,
-        <img src="/images/brand/Layer 609.png" alt="mi" />,
-        <img src="/images/brand/Layer 610.png" alt="samsung" />,
-    ];
-
     const responsive = {
         0: {
             items: 2
@@ -45,8 +32,10 @@ const BrandCarousel = () => {
                 <hr />
                 <div>
                     <span>Хамма Брендлар &#187;</span>
-                    <button type="button"><i className="icon icon-arrow-left" /></button>
-                    <button type="button"><i className="icon icon-arrow-right" /></button>
+                    <div className="btn-left-right">
+                        <button type="button"><i className="icon icon-arrow-left" /></button>
+                        <button type="button"><i className="icon icon-arrow-right" /></button>
+                    </div>
                 </div>
             </div>
             <AliceCarousel 

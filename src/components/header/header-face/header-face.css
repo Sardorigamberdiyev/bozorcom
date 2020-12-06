@@ -1,14 +1,41 @@
 
+.header-face {
+    flex-basis: 72%;
+}
+
 .header-face .face-container {
-    width: 90%;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-face .face-container .wrapper-nav {
+    flex-basis: 40%;
+}
+
+.header-face .face-container .wrapper-nav ul {
+    width: 55%;
+    margin-left: auto;
+    list-style-type: none;
+    padding-left: 0;
     display: flex;
     justify-content: space-between;
 }
 
+.header-face .face-container .wrapper-nav ul li a {
+    text-decoration: none;
+    color: #1B1C1E;
+    font-weight: 600;
+    font-family: roboto, sans-serif;
+    transition-duration: .2s;
+}
+
+.header-face .face-container .wrapper-nav ul li a:hover {
+    color: #F2B143;
+}
+
 .header-face .face-container .img-advertising {
-    margin-left: 15px;
-    flex-basis: 75%;
+    margin-top: 15px;
+    height: 448px;
     background-image: url('https://sardorigamberdiyev.github.io/bozorcom/images/Img Bg.png');
     background-repeat: no-repeat;
     background-size: 100%;
@@ -22,16 +49,25 @@
     left: 40px;
 }
 
+
 @media (max-width: 576px) {
-    .header-face .face-container {
-        display: block;
-        justify-content: unset;
+
+    .header-face {
+        flex-basis: 100%;
+    }
+
+    .header-face .face-container .wrapper-nav ul {
+        width: 100%;
+    }
+
+    .header-face .face-container .wrapper-nav ul li a {
+        font-size: 11px;
     }
 
     .header-face .face-container .img-advertising {
-        width: 100%;
+        background-position: top center;
         height: 200px;
-        margin-left: 0;
+        margin: 0;
     }
 
     .header-face .face-container .img-advertising img {
@@ -40,18 +76,61 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-    .header-face .face-containert {
-        display: block;
-        justify-content: unset;
+    
+    .header-face {
+        flex-basis: 100%;
+    }
+
+    .header-face .face-container .wrapper-nav ul {
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .header-face .face-container .wrapper-nav ul li a {
+        font-size: 14px;
     }
 
     .header-face .face-container .img-advertising {
-        width: 100%;
-        height: 200px;
-        margin-left: 0;
+        background-position: top center;
+        height: 300px;
+        margin: 0;
     }
 
     .header-face .face-container .img-advertising img {
         display: none;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    
+    .header-face {
+        flex-basis: 100%;
+    }
+
+    .header-face .face-container .wrapper-nav ul {
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .header-face .face-container .wrapper-nav ul li a {
+        font-size: 14px;
+    }
+
+    .header-face .face-container .img-advertising {
+        background-position: top center;
+        height: 350px;
+        margin: 0;
+    }
+
+    .header-face .face-container .img-advertising img {
+        display: none;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+    .header-face .face-container .wrapper-nav ul {
+        width: 100%;
     }
 }

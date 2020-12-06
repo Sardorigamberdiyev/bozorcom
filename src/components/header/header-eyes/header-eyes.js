@@ -3,7 +3,10 @@ import React from 'react';
 import './header-eyes.css';
 
 
-const HeaderEyes = () => {
+const HeaderEyes = (props) => {
+
+    const { isOpenShow, isShow } = props;
+
     return (
         <div className="header-eyes">
             <div className="eyes-container">
@@ -23,11 +26,18 @@ const HeaderEyes = () => {
                     <button type="button"><i className="icon icon-search" /></button>
                 </div>
                 <div className="auth-cart" >
-                    <button type="button"><i className="icon icon-user" /></button>
-                    <button type="button">
-                        <i className="icon icon-cart" />
-                        <span className="count-cart">3</span>
+                    <button type="button" 
+                    className="menu-category" 
+                    onClick={() => isOpenShow(!isShow)}>
+                        <i className="icon icon-list" />
                     </button>
+                    <div>
+                        <button type="button"><i className="icon icon-user" /></button>
+                        <button type="button">
+                            <i className="icon icon-cart" />
+                            <span className="count-cart">3</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>

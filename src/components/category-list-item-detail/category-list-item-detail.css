@@ -26,3 +26,14 @@
 .category-list-item-detail ul li a:hover {
     color: #3873ad;
 }
+
+
+@media (max-width: 576px) {
+    .category-list-item-detail h4 {
+        font-size: 16px;
+    }
+
+    .category-list-item-detail ul li a {
+        font-size: 14px;
+    }
+}

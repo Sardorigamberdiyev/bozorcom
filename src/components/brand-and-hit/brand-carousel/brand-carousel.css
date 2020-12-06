@@ -6,20 +6,17 @@
 }
 
 .brand-carousel .brand-header h2 {
-    flex-basis: 10%;
     text-transform: uppercase;
     font-family: roboto, sans-serif;
     color: #252525;
 }
 
 .brand-carousel .brand-header hr {
-    flex-basis: 71%;
     border: 1px solid #e2e1e1;
     width: 100%;
 }
 
 .brand-carousel .brand-header div {
-    flex-basis: 16%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,4 +70,88 @@
 
 .brand-carousel .alice-carousel__stage-item {
     vertical-align: middle;
+}
+
+@media (max-width: 576px) {
+
+    .brand-carousel .brand-header h2 {
+        font-size: 18px;
+    }
+
+    .brand-carousel .brand-header hr {
+        margin: 0 10px;
+    }
+
+    .brand-carousel .brand-header > div span {
+        width: 110px;
+        font-size: 12px;
+    }
+
+    .brand-carousel .brand-header > div .btn-left-right button:nth-child(1) {
+        margin-right: 5px;
+    }
+
+    .brand-carousel .brand-header > div .btn-left-right button {
+        background-color: #F2B143;
+        border-color: #F2B143;
+    }
+    .brand-carousel .brand-header > div .btn-left-right button i {
+        background-color: white;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+    .brand-carousel .brand-header h2 {
+        font-size: 22px;
+    }
+
+    .brand-carousel .brand-header hr {
+        margin: 0 10px;
+    }
+
+    .brand-carousel .brand-header > div span {
+        width: 140px;
+        font-size: 14px;
+    }
+
+    .brand-carousel .brand-header > div .btn-left-right button:nth-child(1) {
+        margin-right: 5px;
+    }
+
+    .brand-carousel .brand-header > div .btn-left-right button {
+        background-color: #F2B143;
+        border-color: #F2B143;
+    }
+    .brand-carousel .brand-header > div .btn-left-right button i {
+        background-color: white;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .brand-carousel .brand-header h2 {
+        font-size: 28px;
+    }
+
+    .brand-carousel .brand-header hr {
+        margin: 0 10px;
+    }
+
+    .brand-carousel .brand-header > div span {
+        width: 140px;
+        font-size: 14px;
+    }
+
+    .brand-carousel .brand-header > div .btn-left-right button:nth-child(1) {
+        margin-right: 5px;
+    }
+
+    .brand-carousel .brand-header > div .btn-left-right button {
+        background-color: #F2B143;
+        border-color: #F2B143;
+    }
+    .brand-carousel .brand-header > div .btn-left-right button i {
+        background-color: white;
+    }
 }

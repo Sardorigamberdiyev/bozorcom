@@ -23,7 +23,7 @@ const HitCarousel = () => {
         1200: {
             items: 5
         }
-    }
+    };
 
     return (
         <div className="hit-carousel">
@@ -32,19 +32,21 @@ const HitCarousel = () => {
                 <hr />
                 <div>
                     <span>Хамма хитлар &#187;</span>
-                    <button type="button"><i className="icon icon-arrow-left" /></button>
-                    <button type="button"><i className="icon icon-arrow-right" /></button>
+                    <div className="btn-left-right">
+                        <button type="button" onClick={() => console.log('left')}><i className="icon icon-arrow-left" /></button>
+                        <button type="button" onClick={() => console.log('right')}><i className="icon icon-arrow-right" /></button>
+                    </div>
                 </div>
             </div>
             <AliceCarousel 
             mouseTracking
             responsive={responsive} 
-            autoPlay={true}
             disableDotsControls={true}
             disableButtonsControls={true}
+            autoPlay={true}
             infinite={true}
-            autoPlayInterval={15000}
-            animationDuration={500} >
+            animationDuration={500}
+            autoPlayInterval={15000} >
                 <div className="card">
                     <div className="card-img">
                         <img src="https://sardorigamberdiyev.github.io/bozorcom/images/Layer 613.png" alt="img653"/>
@@ -64,12 +66,12 @@ const HitCarousel = () => {
                 </div>
                 <div className="card">
                     <div className="card-img">
-                        <img src="https://sardorigamberdiyev.github.io/bozorcom/images/Layer 613.png" alt="img653"/>
-                        <span className="discount">20%</span>
+                        <img src="https://sardorigamberdiyev.github.io/bozorcom/images/Layer 619.png" alt="img653"/>
+                        <span></span>
                     </div>
                     <div className="card-body">
-                        <h4>Музлаткич LG 2050</h4>
-                        <p><span>2.800.000</span> 2.500.000 сум</p>
+                        <h4>Кондиционер Gree</h4>
+                        <p>1.500.000 сум</p>
                     </div>
                     <div className="card-footer">
                         <button className="button"><i className="icon icon-remove" /></button>
@@ -79,12 +81,12 @@ const HitCarousel = () => {
                 </div>
                 <div className="card">
                     <div className="card-img">
-                        <img src="https://sardorigamberdiyev.github.io/bozorcom/images/Layer 613.png" alt="img653"/>
-                        <span className="discount">20%</span>
+                        <img src="https://sardorigamberdiyev.github.io/bozorcom/images/Layer 620.png" alt="img653"/>
+                        <span></span>
                     </div>
                     <div className="card-body">
-                        <h4>Музлаткич LG 2050</h4>
-                        <p><span>2.800.000</span> 2.500.000 сум</p>
+                        <h4>Телевизор LG 2050</h4>
+                        <p>2.500.000 сум</p>
                     </div>
                     <div className="card-footer">
                         <button className="button"><i className="icon icon-remove" /></button>
@@ -94,12 +96,12 @@ const HitCarousel = () => {
                 </div>
                 <div className="card">
                     <div className="card-img">
-                        <img src="https://sardorigamberdiyev.github.io/bozorcom/images/Layer 613.png" alt="img653"/>
-                        <span className="discount">20%</span>
+                        <img src="https://sardorigamberdiyev.github.io/bozorcom/images/Layer 621.png" alt="img653"/>
+                        <span></span>
                     </div>
                     <div className="card-body">
-                        <h4>Музлаткич LG 2050</h4>
-                        <p><span>2.800.000</span> 2.500.000 сум</p>
+                        <h4>Gelaxy S8</h4>
+                        <p>1.500.000 сум</p>
                     </div>
                     <div className="card-footer">
                         <button className="button"><i className="icon icon-remove" /></button>
@@ -109,12 +111,12 @@ const HitCarousel = () => {
                 </div>
                 <div className="card">
                     <div className="card-img">
-                        <img src="https://sardorigamberdiyev.github.io/bozorcom/images/Layer 613.png" alt="img653"/>
-                        <span className="discount">20%</span>
+                        <img src="https://sardorigamberdiyev.github.io/bozorcom/images/Layer 622.png" alt="img653"/>
+                        <span></span>
                     </div>
                     <div className="card-body">
-                        <h4>Музлаткич LG 2050</h4>
-                        <p><span>2.800.000</span> 2.500.000 сум</p>
+                        <h4>Кондиционер LG 2050</h4>
+                        <p>2.500.000 сум</p>
                     </div>
                     <div className="card-footer">
                         <button className="button"><i className="icon icon-remove" /></button>

@@ -1,8 +1,4 @@
 
-.category-list {
-    flex-basis: 22%;
-}
-
 .category-list > ul {
     list-style-type: none;
     padding-left: 0;

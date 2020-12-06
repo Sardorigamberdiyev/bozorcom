@@ -10,15 +10,15 @@ const CategoryListDetails = (props) => {
             <p>{props.numberCategor}</p>
             <ul>
                 <li>
-                    <CategoryListItemDetail name="Sabzavot va mevalar" />
-                    <CategoryListItemDetail name="Tuxum / Sut va sut mahsulotlari" />
+                    <CategoryListItemDetail name="Sabzavot va mevalar" ancd="" />
+                    <CategoryListItemDetail name="Tuxum / Sut va sut mahsulotlari" ancd="" />
                 </li>
                 <li>
-                    <CategoryListItemDetail name="Go'sht va go'sht mahsulotlari" />
-                    <CategoryListItemDetail name="Tuxum / Sut va sut mahsulotlari" />
+                    <CategoryListItemDetail name="Go'sht va go'sht mahsulotlari" ancd="" />
+                    <CategoryListItemDetail name="Tuxum / Sut va sut mahsulotlari" ancd="" />
                 </li>
                 <li>
-                    <CategoryListItemDetail name="Yuvish vositalari" />
+                    <CategoryListItemDetail name="Yuvish vositalari" ancd="" />
                     <div><img src="https://sardorigamberdiyev.github.io/bozorcom/images/logo.png" alt="logo" /></div>
                 </li>
             </ul>
