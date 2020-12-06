@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "683075c7a46aabfa7ecae83567890e62",
+    "revision": "7447027d61feb47cd6f88a4e9ee8fa33",
     "url": "/bozorcom/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bozorcom/static/css/2.ce773819.chunk.css"
   },
   {
-    "revision": "9b409c9e4133d8eb1d01",
+    "revision": "8ee04d3cea6cdc1b0d01",
     "url": "/bozorcom/static/css/main.f830bad3.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bozorcom/static/js/2.3ff078ce.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9b409c9e4133d8eb1d01",
-    "url": "/bozorcom/static/js/main.af22e65a.chunk.js"
+    "revision": "8ee04d3cea6cdc1b0d01",
+    "url": "/bozorcom/static/js/main.37393b92.chunk.js"
   },
   {
     "revision": "4fe2592fa1d8b5a340e3",
