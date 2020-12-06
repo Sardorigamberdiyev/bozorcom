@@ -4,14 +4,11 @@ import CategoryList from '../../category-list';
 import './header-category.css';
 
 
-const HeaderCategory = (props) => {
-
-    const { isOpenShow, isShow } = props;
-
+const HeaderCategory = () => {
     return (
         <nav className="header-category">
             <div className="wrapper-category">
-                <div className="cap-category" onClick={() => isOpenShow(!isShow)}>
+                <div className="cap-category">
                     <span>категориялар</span>
                     <i className="icon icon-list" />
                 </div>
